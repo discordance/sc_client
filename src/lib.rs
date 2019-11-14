@@ -44,10 +44,12 @@ mod osc_server;
 mod server;
 mod synth;
 mod synth_definition;
+mod buffer;
 pub mod types;
 pub use osc_server::*;
 pub use server::*;
 pub use synth::*;
 pub use synth_definition::*;
+pub use buffer::*;
 
 pub type ScClientResult<T> = Result<T, failure::Error>;
